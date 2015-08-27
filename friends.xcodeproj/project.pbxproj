@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		D75DC3CC1B8F1E9600AD7CA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC3CB1B8F1E9600AD7CA5 /* main.m */; };
 		D75DC3CF1B8F1E9600AD7CA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC3CE1B8F1E9600AD7CA5 /* AppDelegate.m */; };
-		D75DC3D21B8F1E9600AD7CA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC3D11B8F1E9600AD7CA5 /* ViewController.m */; };
-		D75DC3D51B8F1E9600AD7CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75DC3D31B8F1E9600AD7CA5 /* Main.storyboard */; };
 		D75DC3D71B8F1E9600AD7CA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75DC3D61B8F1E9600AD7CA5 /* Images.xcassets */; };
-		D75DC3DA1B8F1E9600AD7CA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D75DC3D81B8F1E9600AD7CA5 /* LaunchScreen.xib */; };
 		D75DC3E61B8F1E9600AD7CA5 /* friendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC3E51B8F1E9600AD7CA5 /* friendsTests.m */; };
+		D75DC3FA1B8F1ED900AD7CA5 /* FriendsNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC3F01B8F1ED900AD7CA5 /* FriendsNavigation.m */; };
+		D75DC3FB1B8F1ED900AD7CA5 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC3F21B8F1ED900AD7CA5 /* FriendsViewController.m */; };
+		D75DC3FC1B8F1ED900AD7CA5 /* addFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC3F41B8F1ED900AD7CA5 /* addFriendsViewController.m */; };
+		D75DC3FD1B8F1ED900AD7CA5 /* BlockedUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC3F61B8F1ED900AD7CA5 /* BlockedUsersViewController.m */; };
+		D75DC3FE1B8F1ED900AD7CA5 /* addFriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D75DC3F81B8F1ED900AD7CA5 /* addFriendsCell.m */; };
+		D75DC3FF1B8F1ED900AD7CA5 /* addFriendsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D75DC3F91B8F1ED900AD7CA5 /* addFriendsCell.xib */; };
+		D75DC4021B8F1FD700AD7CA5 /* friendsName.plist in Resources */ = {isa = PBXBuildFile; fileRef = D75DC4001B8F1FD700AD7CA5 /* friendsName.plist */; };
+		D75DC4031B8F1FD700AD7CA5 /* addFriendsName.plist in Resources */ = {isa = PBXBuildFile; fileRef = D75DC4011B8F1FD700AD7CA5 /* addFriendsName.plist */; };
+		D75DC4051B8F209700AD7CA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D75DC4041B8F209700AD7CA5 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,24 @@
 		D75DC3CB1B8F1E9600AD7CA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D75DC3CD1B8F1E9600AD7CA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D75DC3CE1B8F1E9600AD7CA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D75DC3D01B8F1E9600AD7CA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D75DC3D11B8F1E9600AD7CA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D75DC3D41B8F1E9600AD7CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D75DC3D61B8F1E9600AD7CA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D75DC3D91B8F1E9600AD7CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D75DC3DF1B8F1E9600AD7CA5 /* friendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = friendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75DC3E41B8F1E9600AD7CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D75DC3E51B8F1E9600AD7CA5 /* friendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = friendsTests.m; sourceTree = "<group>"; };
+		D75DC3EF1B8F1ED900AD7CA5 /* FriendsNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsNavigation.h; sourceTree = "<group>"; };
+		D75DC3F01B8F1ED900AD7CA5 /* FriendsNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsNavigation.m; sourceTree = "<group>"; };
+		D75DC3F11B8F1ED900AD7CA5 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		D75DC3F21B8F1ED900AD7CA5 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		D75DC3F31B8F1ED900AD7CA5 /* addFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addFriendsViewController.h; sourceTree = "<group>"; };
+		D75DC3F41B8F1ED900AD7CA5 /* addFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addFriendsViewController.m; sourceTree = "<group>"; };
+		D75DC3F51B8F1ED900AD7CA5 /* BlockedUsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockedUsersViewController.h; sourceTree = "<group>"; };
+		D75DC3F61B8F1ED900AD7CA5 /* BlockedUsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockedUsersViewController.m; sourceTree = "<group>"; };
+		D75DC3F71B8F1ED900AD7CA5 /* addFriendsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addFriendsCell.h; sourceTree = "<group>"; };
+		D75DC3F81B8F1ED900AD7CA5 /* addFriendsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addFriendsCell.m; sourceTree = "<group>"; };
+		D75DC3F91B8F1ED900AD7CA5 /* addFriendsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addFriendsCell.xib; sourceTree = "<group>"; };
+		D75DC4001B8F1FD700AD7CA5 /* friendsName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friendsName.plist; sourceTree = "<group>"; };
+		D75DC4011B8F1FD700AD7CA5 /* addFriendsName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = addFriendsName.plist; sourceTree = "<group>"; };
+		D75DC4041B8F209700AD7CA5 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +99,19 @@
 			children = (
 				D75DC3CD1B8F1E9600AD7CA5 /* AppDelegate.h */,
 				D75DC3CE1B8F1E9600AD7CA5 /* AppDelegate.m */,
-				D75DC3D01B8F1E9600AD7CA5 /* ViewController.h */,
-				D75DC3D11B8F1E9600AD7CA5 /* ViewController.m */,
-				D75DC3D31B8F1E9600AD7CA5 /* Main.storyboard */,
+				D75DC3EF1B8F1ED900AD7CA5 /* FriendsNavigation.h */,
+				D75DC3F01B8F1ED900AD7CA5 /* FriendsNavigation.m */,
+				D75DC3F11B8F1ED900AD7CA5 /* FriendsViewController.h */,
+				D75DC3F21B8F1ED900AD7CA5 /* FriendsViewController.m */,
+				D75DC3F31B8F1ED900AD7CA5 /* addFriendsViewController.h */,
+				D75DC3F41B8F1ED900AD7CA5 /* addFriendsViewController.m */,
+				D75DC3F51B8F1ED900AD7CA5 /* BlockedUsersViewController.h */,
+				D75DC3F61B8F1ED900AD7CA5 /* BlockedUsersViewController.m */,
+				D75DC3F71B8F1ED900AD7CA5 /* addFriendsCell.h */,
+				D75DC3F81B8F1ED900AD7CA5 /* addFriendsCell.m */,
+				D75DC3F91B8F1ED900AD7CA5 /* addFriendsCell.xib */,
 				D75DC3D61B8F1E9600AD7CA5 /* Images.xcassets */,
-				D75DC3D81B8F1E9600AD7CA5 /* LaunchScreen.xib */,
+				D75DC4041B8F209700AD7CA5 /* LaunchScreen.xib */,
 				D75DC3C91B8F1E9600AD7CA5 /* Supporting Files */,
 			);
 			path = friends;
@@ -96,6 +120,8 @@
 		D75DC3C91B8F1E9600AD7CA5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D75DC4001B8F1FD700AD7CA5 /* friendsName.plist */,
+				D75DC4011B8F1FD700AD7CA5 /* addFriendsName.plist */,
 				D75DC3CA1B8F1E9600AD7CA5 /* Info.plist */,
 				D75DC3CB1B8F1E9600AD7CA5 /* main.m */,
 			);
@@ -199,9 +225,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D75DC3D51B8F1E9600AD7CA5 /* Main.storyboard in Resources */,
-				D75DC3DA1B8F1E9600AD7CA5 /* LaunchScreen.xib in Resources */,
+				D75DC4051B8F209700AD7CA5 /* LaunchScreen.xib in Resources */,
 				D75DC3D71B8F1E9600AD7CA5 /* Images.xcassets in Resources */,
+				D75DC4031B8F1FD700AD7CA5 /* addFriendsName.plist in Resources */,
+				D75DC3FF1B8F1ED900AD7CA5 /* addFriendsCell.xib in Resources */,
+				D75DC4021B8F1FD700AD7CA5 /* friendsName.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D75DC3D21B8F1E9600AD7CA5 /* ViewController.m in Sources */,
+				D75DC3FB1B8F1ED900AD7CA5 /* FriendsViewController.m in Sources */,
+				D75DC3FC1B8F1ED900AD7CA5 /* addFriendsViewController.m in Sources */,
+				D75DC3FA1B8F1ED900AD7CA5 /* FriendsNavigation.m in Sources */,
 				D75DC3CF1B8F1E9600AD7CA5 /* AppDelegate.m in Sources */,
 				D75DC3CC1B8F1E9600AD7CA5 /* main.m in Sources */,
+				D75DC3FD1B8F1ED900AD7CA5 /* BlockedUsersViewController.m in Sources */,
+				D75DC3FE1B8F1ED900AD7CA5 /* addFriendsCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +274,6 @@
 			targetProxy = D75DC3E01B8F1E9600AD7CA5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D75DC3D31B8F1E9600AD7CA5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D75DC3D41B8F1E9600AD7CA5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D75DC3D81B8F1E9600AD7CA5 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D75DC3D91B8F1E9600AD7CA5 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D75DC3E71B8F1E9600AD7CA5 /* Debug */ = {
@@ -348,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = friends/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = friends/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
